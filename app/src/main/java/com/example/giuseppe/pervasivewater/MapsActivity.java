@@ -125,6 +125,14 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import com.android.volley.DefaultRetryPolicy;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.RetryPolicy;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 
 
 public class MapsActivity extends AppCompatActivity
@@ -153,7 +161,12 @@ public class MapsActivity extends AppCompatActivity
     private static final String TAG = "MapActivity";
     private boolean isInfoWindowShown = false;
     RequestQueue requestQueue;
-
+    private JSONArray result;
+    private String data2="";
+    private String data1="";
+    private double lat5;
+    private double long5;
+    LatLng coord5;
 
 
     String JsonURL = "http://srv1.gabrio.ovh/f_d.json";
@@ -203,13 +216,12 @@ public class MapsActivity extends AppCompatActivity
         LatLng rome2 = new LatLng(41.8747637, 12.5229818);
         LatLng rome3 = new LatLng(41.8679576, 12.5354582);
         LatLng rome4 = new LatLng(41.867, 12.53545);
-     //   LatLng rome5 = new LatLng(41.3, 44.3);
+       // LatLng rome5 = new LatLng(41.1, 44.1);
         coordinate.add(rome1);
         coordinate.add(rome2);
         coordinate.add(rome3);
         coordinate.add(rome4);
        // coordinate.add(rome5);
-
 
 
 
@@ -252,9 +264,20 @@ public class MapsActivity extends AppCompatActivity
                                 String longADD = jsonObject.getString("lng");
                                 String id = jsonObject.getString("id");
                                 // coordinate.add(posADD);
-                                Toast.makeText(MapsActivity.this, latADD + "diocane"+longADD+"  " + id, Toast.LENGTH_SHORT).show();
-                                coordinate.add(new LatLng(Double.parseDouble(latADD),Double.parseDouble(longADD)));
+
+                               // coordinate.add(new LatLng((double)Double.parseDouble(latADD),(double)Double.parseDouble(longADD)));
+                                data2 += latADD +"-" + longADD + ":";
                             }
+                            Toast.makeText(MapsActivity.this, data2, Toast.LENGTH_SHORT).show();
+                            String[] parts1 = data2.split(":");
+                            for (int i=0;i< parts1.length;i++){
+                                String[] parts2 = parts1[i].split("-");
+                                lat5 = Double.parseDouble(parts2[0]); // 004
+                                long5 = Double.parseDouble(parts2[1]); // 034556
+                                coord5 = new LatLng(lat5,long5);
+                                coordinate.add(coord5);
+                            }
+                            putMarkers();
 
                         }
                         // Try and catch are included to handle any errors due to JSON
@@ -288,16 +311,17 @@ public class MapsActivity extends AppCompatActivity
 
 
 
-
-
-
-
         //mMap.addMarker(new MarkerOptions().position(rome).title("Nasone Colosseo"));
         // mMap.moveCamera(CameraUpdateFactory.newLatLng(rome));
         //  final PlaceInfo romeInfo = new PlaceInfo("Colosseo", "Piazza del Colosseo, 1, 00184 Roma RM", "00000", "001",
         //rome1,0, "Good");
         //  moveCamera(coordinate, 14, romeInfo);
 
+
+
+
+    }
+    private void putMarkers(){
         float rating = 0;
         ArrayList<PlaceInfo> info = new ArrayList<PlaceInfo>();
         Iterator iter = coordinate.iterator();
@@ -345,7 +369,7 @@ public class MapsActivity extends AppCompatActivity
             @Override
             public boolean onMarkerClick(Marker marker) {
                 marker.showInfoWindow();
-               // mMap.getUiSettings().setMapToolbarEnabled(true);
+                // mMap.getUiSettings().setMapToolbarEnabled(true);
                /* Toast.makeText(MapsActivity.this, "Clicked "+marker.getTitle(), Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MapsActivity.this,MarkerActivity.class);
                 intent.putExtra("activity", romeInfo.getName());
@@ -372,7 +396,7 @@ public class MapsActivity extends AppCompatActivity
                 return false;
             }
         });
-        map.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
+        mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
             @Override
             public void onInfoWindowClick(Marker arg0) {
                 // call an activity(xml file)
@@ -385,9 +409,16 @@ public class MapsActivity extends AppCompatActivity
             }
 
         });
-
-
     }
+
+
+
+
+
+
+
+
+
 
     /**
      * Enables the My Location layer if the fine location permission has been granted.
@@ -446,6 +477,12 @@ public class MapsActivity extends AppCompatActivity
         }
     }
 
+
+
+
+
+
+
     /**
      * Displays a dialog with error message explaining that the location permission is missing.
      */
@@ -460,6 +497,11 @@ public class MapsActivity extends AppCompatActivity
                 .show();
         return false;
     }*/
+
+
+
+
+
 
     private void moveCamera(ArrayList<LatLng> coordinate, float zoom, ArrayList<PlaceInfo> placeInfo) {
         //Log.d(TAG, "moveCamera: moving the camera to: lat: " + latLng.latitude + ", lng: " + latLng.longitude );
@@ -537,6 +579,11 @@ public class MapsActivity extends AppCompatActivity
                 return super.onOptionsItemSelected(item);
         }
     }
+
+
+
+
+
     public void OpenAct() {
         String latlongextra = "";
         double lat3=9999;
