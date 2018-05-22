@@ -231,31 +231,17 @@ public class MapsActivity extends AppCompatActivity
                     // Takes the response from the JSON request
                     @Override
                     public void onResponse(JSONArray response) {
-                        try {
-
-
-
-
-                            // Retrieves first JSON object in outer array
-                            JSONObject statsObj = response.getJSONObject(0);
-                            // Retrieves "colorArray" from the JSON object
-                            JSONArray statsArry = statsObj.getJSONArray("positions");
-                            // Iterates through the JSON Array getting objects and adding them
-                            //to the list view until there are no more objects in colorArray
-                            for (int i = 0; i < statsArry.length(); i++) {
-                                //gets each JSON object within the JSON array
-                                JSONObject jsonObject = statsArry.getJSONObject(i);
-
-                                // Retrieves the string labeled "colorName" and "hexValue",
-                                // and converts them into javascript objects
-                                String latADD = jsonObject.getString("lat");
-                                String longADD = jsonObject.getString("lng");
-                                String id = jsonObject.getString("id");
-                                // coordinate.add(posADD);
-                                Toast.makeText(MapsActivity.this, latADD + "diocane"+longADD+"  " + id, Toast.LENGTH_SHORT).show();
-                                coordinate.add(new LatLng(Double.parseDouble(latADD),Double.parseDouble(longADD)));
-                            }
-
+                        try{
+        			for(int i=0; i< response.length(); i++){
+					
+	        			JSONObject fountain = response.getJSONObject(i);
+			
+					String lat = jsonObject.getString("lat");
+					String lng = jsonObject.getString("lng");
+                                        String id = jsonObject.getString("id");
+					coordinate.add(new LatLng(Double.parseDouble(lat),Double.parseDouble(lng)));
+					
+			        }      
                         }
                         // Try and catch are included to handle any errors due to JSON
                         catch (JSONException e) {
