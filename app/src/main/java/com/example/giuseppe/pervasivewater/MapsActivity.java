@@ -286,9 +286,9 @@ public class MapsActivity extends AppCompatActivity
 					
 	        			JSONObject fountain = response.getJSONObject(i);
 			
-					String lat = fountain.getString("lat");
-					String lng = fountain.getString("lng");
-                                        String id = fountai.getString("id");
+					String lat = jsonObject.getString("lat");
+					String lng = jsonObject.getString("lng");
+                                        String id = jsonObject.getString("id");
 					coordinate.add(new LatLng(Double.parseDouble(lat),Double.parseDouble(lng)));
 					
 			        }      
