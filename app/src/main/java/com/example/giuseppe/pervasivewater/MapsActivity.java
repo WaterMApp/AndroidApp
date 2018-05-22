@@ -243,6 +243,7 @@ public class MapsActivity extends AppCompatActivity
                     // Takes the response from the JSON request
                     @Override
                     public void onResponse(JSONArray response) {
+<<<<<<< HEAD
                         try {
 
 
@@ -279,6 +280,19 @@ public class MapsActivity extends AppCompatActivity
                             }
                             putMarkers();
 
+=======
+                        try{
+        			for(int i=0; i< response.length(); i++){
+					
+	        			JSONObject fountain = response.getJSONObject(i);
+			
+					String lat = fountain.getString("lat");
+					String lng = fountain.getString("lng");
+                                        String id = fountai.getString("id");
+					coordinate.add(new LatLng(Double.parseDouble(lat),Double.parseDouble(lng)));
+					
+			        }      
+>>>>>>> 65e02b97a476ca08755d7e5763e671c04ce5a48d
                         }
                         // Try and catch are included to handle any errors due to JSON
                         catch (JSONException e) {
