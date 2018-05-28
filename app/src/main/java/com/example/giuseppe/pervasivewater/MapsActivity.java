@@ -167,10 +167,6 @@ public class MapsActivity extends AppCompatActivity
                                 coordinate.add(coord5);
                             }
                             putMarkers();
-<<<<<<< HEAD
-=======
-
->>>>>>> c4981bc319be4c81672e71a42801d711c788e7bd
                         }
                         // Try and catch are included to handle any errors due to JSON
                         catch (JSONException e) {
