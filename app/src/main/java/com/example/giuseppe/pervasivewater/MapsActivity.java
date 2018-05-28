@@ -156,7 +156,6 @@ public class MapsActivity extends AppCompatActivity
                                 String id = jsonObject.getString("id");
                                 data2 += latADD +"-" + longADD +"-"+id+ ":";
                             }
-                            Toast.makeText(MapsActivity.this, data2, Toast.LENGTH_SHORT).show();
                             String[] parts1 = data2.split(":");
                             for (int i=0;i< parts1.length;i++){
                                 String[] parts2 = parts1[i].split("-");
