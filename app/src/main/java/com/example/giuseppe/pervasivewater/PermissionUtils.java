@@ -1,6 +1,5 @@
 package com.example.giuseppe.pervasivewater;
 
-import com.example.giuseppe.pervasivewater.R;
 import android.Manifest;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -11,8 +10,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
-
-
 
 
 /**

@@ -2,12 +2,10 @@ package com.example.giuseppe.pervasivewater;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
 
 public class SplashScreen extends Activity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,5 +25,8 @@ public class SplashScreen extends Activity {
             }
         };
         myThread.start();
+
     }
+
+
 }
