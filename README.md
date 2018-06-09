@@ -9,6 +9,8 @@ The idea is to create an Android App that collects data about the positions of t
 # Presentation
 [You can check the SlideShare presentation here](https://www.slideshare.net/mobile/GiuseppeAndreetti/watermapp-100552441)
 
+# Project 
+
 ## Hardware
 
 + B-L072Z-LRWAN1 - STM32L0 Board<br>
@@ -36,7 +38,11 @@ The code is composed by:
 + [Backend](https://github.com/WaterMApp/backend)
 + [Android App](https://github.com/WaterMApp/AndroidApp)
 
+# B-L072Z-LRWAN1 - STM32L0 Board
 
+# Middleware
+
+# Backend
 
 # Android App
 Android App that displays fountains markers on a Map using Maps SDK for Android.
