@@ -13,7 +13,7 @@ The idea is to create an Android App that collects data about the positions of t
 
 ## Hardware
 
-+ B-L072Z-LRWAN1 - STM32L0 Board<br>
++ STMicroelectronics B-L072Z-LRWAN1 - STM32L0 Board
 + Analog Turbidity Sensor
 + Analog PH Sensor
 
