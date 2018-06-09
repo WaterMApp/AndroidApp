@@ -48,7 +48,7 @@ The code is composed by:
 ### MBed OS
 
 We have used Mbed OS in order to manage the lora transreceiver and the read of analog sensors in a more proficient way.
-(Anyway for educational purposes we also make it work with low level HAL libraries.)
+(Anyway for educational purposes we also make it work with low level HAL libraries).
 
 ### MBED OS Repositories
 
