@@ -53,3 +53,13 @@ It is possible to get informations about the fountain just tapping on the marker
 In the case you find a new fountain, you can report it and add on the map just tapping on the add button.
 
 ![alt text](https://preview.ibb.co/cNpRHo/Screen1.png)
+
+
+# Project Members - Contacts
++ Linkedin: [Giuseppe Andreetti](https://www.linkedin.com/in/giuseppe-andreetti/)  
++ Linkedin: [Adriano Pimpini](https://www.linkedin.com/in/adriano-pimpini/)  
++ Linkedin: [Lucia Rodinò](https://www.linkedin.com/in/lucia-rodinò-b5019815b/) 
++ WebSite:  [Gabrio Tognozzi](https://gabrio.ovh/#contacts) 
+
+
+
