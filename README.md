@@ -12,6 +12,8 @@ The idea is to create an Android App that collects data about the positions of t
 # Architecture
 ![alt text](https://preview.ibb.co/nR4zCo/schema_Water_Mapp.png)
 
+The B-L072Z-LRWAN1 - STM32L0 Board read PH and Turbidity from the fountain and send the read values through Lora wireless data communication to the other B-L072Z-LRWAN1 - STM32L0 Board. The receiver board is connected to a Server that stores the values in a SQLite Database. The information are available to the app through Node.js. The mobile phone connects to the server in order to get both the fountain positions and  water stats.<br>
+
 # Android App
 Android App that displays fountains markers on a Map using Maps SDK for Android.
 
