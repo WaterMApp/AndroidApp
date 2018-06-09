@@ -41,7 +41,7 @@ The code is composed by:
 + [Backend](https://github.com/WaterMApp/backend)
 + [Android App](https://github.com/WaterMApp/AndroidApp)
 
-# B-L072Z-LRWAN1 - STM32L0 Board 
+## B-L072Z-LRWAN1 - STM32L0 Board 
 
 ### MBed OS
 
@@ -54,13 +54,13 @@ Mbed os provides its own version control service, we will point to it for the tr
  - [Transmitter](https://os.mbed.com/users/gabrio/code/TRANSMITTER/): Reads analog values from analog A0 and A2 and sends them through LoRa<br>
  - [Receiver](https://os.mbed.com/users/gabrio/code/RECEIVER/): Receives LoRa messages and forwards them to a gateway
  
- # Middleware 
+ ## Middleware 
 
 This component read data from the LoRa receiver and send it to the server. It consists in a Python script that read the data from the Com4 serial port. 
 
-# Backend
+## Backend
 
-# Android App
+## Android App
 Android App that displays fountains markers on a Map using Maps SDK for Android.<br>
 The **main** functionality of this app are:
 + get fountains positions
