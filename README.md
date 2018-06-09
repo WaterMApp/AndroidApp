@@ -82,7 +82,7 @@ In the case you find a new fountain, you can report it and add on the map just t
 + Linkedin: [Giuseppe Andreetti](https://www.linkedin.com/in/giuseppe-andreetti/)  
 + Linkedin: [Adriano Pimpini](https://www.linkedin.com/in/adriano-pimpini/)  
 + Linkedin: [Lucia Rodinò](https://www.linkedin.com/in/lucia-rodinò-b5019815b/) 
-+ WebSite:  [Gabrio Tognozzi](https://gabrio.ovh/#contacts) 
++ WebSite:  [Gabrio Tognozzi](https://gabrio.ovh/) 
 
 
 ##
