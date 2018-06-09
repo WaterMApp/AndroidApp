@@ -14,6 +14,22 @@ The idea is to create an Android App that collects data about the positions of t
 
 The B-L072Z-LRWAN1 - STM32L0 Board read PH and Turbidity from the fountain and send the read values through Lora wireless data communication to the other B-L072Z-LRWAN1 - STM32L0 Board. <br> The receiver board is connected to a Server that stores the values in a SQLite Database. The information are available to the app through Node.js.<br> The mobile phone connects to the server in order to get both the fountain positions and  water stats.
 
+## Hardware
+
+B-L072Z-LRWAN1 - STM32L0 Board
+Analog Turbidity Sensor
+Analog PH Sensor
+
+## Technologies 
+
+Lora
+Mbed OS
+Node.js
+SQLite
+Android App
+
+
+
 # Android App
 Android App that displays fountains markers on a Map using Maps SDK for Android.
 
