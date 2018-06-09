@@ -10,11 +10,9 @@ The idea is to create an Android App that collects data about the positions of t
 [You can check the SlideShare presentation here](https://www.slideshare.net/mobile/GiuseppeAndreetti/watermapp-100552441)
 
 # Architecture
+![alt text](https://preview.ibb.co/nR4zCo/schema_Water_Mapp.png)
 
-
-
-
-
+# Android App
 Android App that displays fountains markers on a Map using Maps SDK for Android.
 
 ![alt text](https://preview.ibb.co/mAVoV8/Screen2.png)
