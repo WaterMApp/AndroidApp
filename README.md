@@ -47,7 +47,7 @@ The code is composed by:
 # Android App
 Android App that displays fountains markers on a Map using Maps SDK for Android.<br>
 The **main** functionality of this app are:
-+ fountain positions
++ get fountains positions
 + get water stats and quality
 + add a new discovered fountain on the map
 + leave comments about the fountain
