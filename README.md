@@ -46,6 +46,7 @@ The code is composed by:
 
 # Android App
 Android App that displays fountains markers on a Map using Maps SDK for Android.
+The [b]main[\b] functionality of this app are:
 
 ![alt text](https://preview.ibb.co/mAVoV8/Screen2.png)
 
