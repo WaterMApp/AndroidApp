@@ -23,6 +23,7 @@ The idea is to create an Android App that collects data about the positions of t
 + Mbed OS
 + Node.js
 + SQLite
++ Python
 + Android App
 
 ## Architecture
