@@ -40,8 +40,7 @@ The code is composed by:
 
 # B-L072Z-LRWAN1 - STM32L0 Board
 
-# Middleware
-## STMCode
+# Middleware - STM
 
 ### MBED OS
 
@@ -51,7 +50,7 @@ We have used mbed os in order to manage the lora transreceiver and the read of a
 ### MBED OS Repositories
 
 Mbed os provides its own version control service, we will point to it for the trasmitter and receiver code.
- - [Transmitter](https://os.mbed.com/users/gabrio/code/TRANSMITTER/): Reads analog values and sends it through LoRa 
+ - [Transmitter](https://os.mbed.com/users/gabrio/code/TRANSMITTER/): Reads analog values from analog A0 and A2 and sends them through LoRa<br>
  - [Receiver](https://os.mbed.com/users/gabrio/code/RECEIVER/): Receives LoRa messages and forwards them to a gateway
 
 # Backend
