@@ -68,5 +68,5 @@ In the case you find a new fountain, you can report it and add on the map just t
 
 
 ##
-![Logo](https://www.creativesharing.it/wpcs/wp-content/uploads/2016/11/logo_rosso_sapienza.png)
+![Logo](https://preview.ibb.co/ebyZCo/logo_rosso_sapienza.png)
 
