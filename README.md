@@ -9,24 +9,24 @@ The idea is to create an Android App that collects data about the positions of t
 # Presentation
 [You can check the SlideShare presentation here](https://www.slideshare.net/mobile/GiuseppeAndreetti/watermapp-100552441)
 
-# Architecture
-![alt text](https://preview.ibb.co/nR4zCo/schema_Water_Mapp.png)
-
-The B-L072Z-LRWAN1 - STM32L0 Board read PH and Turbidity from the fountain and send the read values through Lora wireless data communication to the other B-L072Z-LRWAN1 - STM32L0 Board. <br> The receiver board is connected to a Server that stores the values in a SQLite Database. The information are available to the app through Node.js.<br> The mobile phone connects to the server in order to get both the fountain positions and  water stats.
-
 ## Hardware
 
-B-L072Z-LRWAN1 - STM32L0 Board
-Analog Turbidity Sensor
-Analog PH Sensor
++ B-L072Z-LRWAN1 - STM32L0 Board<br>
++ Analog Turbidity Sensor
++ Analog PH Sensor
 
 ## Technologies 
 
-Lora
-Mbed OS
-Node.js
-SQLite
-Android App
++ Lora
++ Mbed OS
++ Node.js
++ SQLite
++ Android App
+
+## Architecture
+![alt text](https://preview.ibb.co/nR4zCo/schema_Water_Mapp.png)
+
+The B-L072Z-LRWAN1 - STM32L0 Board read PH and Turbidity from the fountain and send the read values through Lora wireless data communication to the other B-L072Z-LRWAN1 - STM32L0 Board. <br> The receiver board is connected to a Server that stores the values in a SQLite Database. The information are available to the app through Node.js.<br> The mobile phone connects to the server in order to get both the fountain positions and  water stats.
 
 
 
