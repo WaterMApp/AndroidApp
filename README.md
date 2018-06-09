@@ -38,13 +38,11 @@ The code is composed by:
 + [Backend](https://github.com/WaterMApp/backend)
 + [Android App](https://github.com/WaterMApp/AndroidApp)
 
-# B-L072Z-LRWAN1 - STM32L0 Board
+# B-L072Z-LRWAN1 - STM32L0 Board 
 
-# Middleware - STM
+### MBed OS
 
-### MBED OS
-
-We have used mbed os in order to manage the lora transreceiver and the read of analog sensors in a more proficient way.
+We have used Mbed OS in order to manage the lora transreceiver and the read of analog sensors in a more proficient way.
 (Anyway for educational purposes we also make it work with low level HAL libraries.)
 
 ### MBED OS Repositories
@@ -52,6 +50,10 @@ We have used mbed os in order to manage the lora transreceiver and the read of a
 Mbed os provides its own version control service, we will point to it for the trasmitter and receiver code.
  - [Transmitter](https://os.mbed.com/users/gabrio/code/TRANSMITTER/): Reads analog values from analog A0 and A2 and sends them through LoRa<br>
  - [Receiver](https://os.mbed.com/users/gabrio/code/RECEIVER/): Receives LoRa messages and forwards them to a gateway
+ 
+ # Middleware 
+
+This component read data from the LoRa receiver and send it to the server. It consists in a Python script that read the data from the Com4 serial port. 
 
 # Backend
 
