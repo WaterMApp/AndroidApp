@@ -59,6 +59,8 @@ Mbed os provides its own version control service, we will point to it for the tr
 This component read data from the LoRa receiver and send it to the server. It consists in a Python script that read the data from the Com4 serial port. 
 
 ## Backend
+This component takes care about the informations storage of the fountain positions, the fountains stats and the comments.
+It also provides this information to the App as Json Object.
 
 ## Android App
 Android App that displays fountains markers on a Map using Maps SDK for Android.<br>
