@@ -52,7 +52,7 @@ We have used Mbed OS in order to manage the lora transreceiver and the read of a
 
 ### MBED OS Repositories
 
-Mbed os provides its own version control service, we will point to it for the trasmitter and receiver code.
+Mbed OS provides its own version control service, we will point to it for the trasmitter and receiver code.
  - [Transmitter](https://os.mbed.com/users/gabrio/code/TRANSMITTER/): Reads analog values from analog A0 and A2 and sends them through LoRa<br>
  - [Receiver](https://os.mbed.com/users/gabrio/code/RECEIVER/): Receives LoRa messages and forwards them to a gateway
  
