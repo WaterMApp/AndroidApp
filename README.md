@@ -6,11 +6,11 @@
 WaterMApp is Internet of Things group-project for Pervasive Systems course - Spring 2018 at "Sapienza Università di Roma". 
 The idea is to create an Android App that collects data about the positions of the fountains worldwide and a cheap monitoring system to get the quality of the water.
 
-# Concept-Idea Presentation
-[You can check the SlideShare presentation here](https://www.slideshare.net/mobile/GiuseppeAndreetti/watermapp-100552441)
+# Idea Presentation
+[You can check the SlideShare presentation here](https://www.slideshare.net/GiuseppeAndreetti/watermapp-idea)
 
 # Midterm Presentation
-[You can check the SlideShare presentation here](https://www.slideshare.net/mobile/GiuseppeAndreetti/watermapp-100552441)
+[You can check the SlideShare presentation here](https://www.slideshare.net/GiuseppeAndreetti/watermapp-midterm)
 
 # Final Presentation
 [You can check the SlideShare presentation here](https://www.slideshare.net/mobile/GiuseppeAndreetti/watermapp-100552441)
