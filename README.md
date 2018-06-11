@@ -4,9 +4,15 @@
 ### Abstract
 
 WaterMApp is Internet of Things group-project for Pervasive Systems course - Spring 2018 at "Sapienza Università di Roma". 
-The idea is to create an Android App that collects data about the positions of the fountains worldwide and a cheap monitoring system to get the quality of the water. 
+The idea is to create an Android App that collects data about the positions of the fountains worldwide and a cheap monitoring system to get the quality of the water.
 
-# Presentation
+# Concept-Idea Presentation
+[You can check the SlideShare presentation here](https://www.slideshare.net/mobile/GiuseppeAndreetti/watermapp-100552441)
+
+# Midterm Presentation
+[You can check the SlideShare presentation here](https://www.slideshare.net/mobile/GiuseppeAndreetti/watermapp-100552441)
+
+# Final Presentation
 [You can check the SlideShare presentation here](https://www.slideshare.net/mobile/GiuseppeAndreetti/watermapp-100552441)
 
 # Demo
@@ -30,10 +36,12 @@ The idea is to create an Android App that collects data about the positions of t
 + Python
 + Android App
 
-## Architecture
+## Main idea
 ![alt text](https://preview.ibb.co/nR4zCo/schema_Water_Mapp.png)
 
 The **B-L072Z-LRWAN1 - STM32L0 Board** read PH and Turbidity from the fountain and send the read values through **Lora wireless data communication** to the other **B-L072Z-LRWAN1 - STM32L0 Board**. <br> The receiver board is connected to a **Server** that stores the values in a **SQLite Database**. The information are available to the app through **Node.js**.<br> The **Android phone** connects to the **Server** in order to get both the fountain positions and  water stats.
+
+## Architecture
 
 ## Code
 The code is composed by:
