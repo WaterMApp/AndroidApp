@@ -11,7 +11,7 @@ The idea is to create an Android App that collects data about the positions of t
 ## Hardware
 
 + **STMicroelectronics B-L072Z-LRWAN1 - STM32L0 Board** / 2pcs.
-+ **Analog Turbidity Sensor SKU: SEN0189**
++ **Analog Turbidity Sensor SKU:SEN0189**
 + **Analog PH Sensor SKU:SEN0161**
 
 ## Software & Technologies 
@@ -74,7 +74,7 @@ In the case you find a new fountain, you can report it and add on the map just t
 
 ![alt text](https://preview.ibb.co/cNpRHo/Screen1.png)
 
-# Presentations
+# Useful links
 ## Initial Concept & User Evaluation Presentation
 [You can check the SlideShare presentation here](https://www.slideshare.net/GiuseppeAndreetti/watermapp-idea)
 
