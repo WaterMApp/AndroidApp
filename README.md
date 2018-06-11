@@ -23,18 +23,18 @@ The idea is to create an Android App that collects data about the positions of t
 
 ## Hardware
 
-+ STMicroelectronics B-L072Z-LRWAN1 - STM32L0 Board / 2pcs.
-+ Analog Turbidity Sensor
-+ Analog PH Sensor
++ **STMicroelectronics B-L072Z-LRWAN1 - STM32L0 Board** / 2pcs.
++ **Analog Turbidity Sensor SKU: SEN0189**
++ **Analog PH Sensor SKU:SEN0161**
 
-## Technologies 
+## Software & Technologies 
 
-+ Lora
-+ Mbed OS
-+ Node.js
-+ SQLite
-+ Python
-+ Android App
++ **Lora** used to exchange data between the two boards
++ **Mbed OS**  used in the Nucleo boards
++ **Node.js** used for the server
++ **SQLite** used for the database
++ **Python** used to get values from the receiver board
++ **Android App**
 
 ## Main idea
 ![alt text](https://preview.ibb.co/nR4zCo/schema_Water_Mapp.png)
