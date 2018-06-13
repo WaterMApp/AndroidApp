@@ -72,12 +72,12 @@ The **main** functionality of this app are:
 + get fountains positions
 + get water stats and quality
 + add a new discovered fountain on the map
-+ leave comments about the fountain
++ leave comments about the fountain <br>
 
 ![alt text](https://image.ibb.co/hbEYxy/Screen2.png)
 
 It is possible to get informations about the fountain just tapping on the marker; it will open a new screen in which we can leave comments about the quality of the water or check the status of the fountain, controlling the PH and the turbidity.       
-In the case you find a new fountain, you can report it and add on the map just tapping on the add button.
+In the case you find a new fountain, you can report it and add on the map just tapping on the add button. <br>
 
 ![alt text](https://image.ibb.co/etR2qJ/Screen1.png)
 
