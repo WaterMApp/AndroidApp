@@ -60,6 +60,12 @@ This component read data from the LoRa receiver and send it to the server. It co
 For the backend we used  both **Node.js** and **Sqlite**. Sqlite takes care about the informations storage of the fountain positions, the fountains stats and the comments. 
 Instead, Node.js provides this information to the App as Json Object.
 
+## Prototype 
+Here the image of the prototype.
+### Sender
+
+### Receiver
+
 ## Android App
 Android App that displays fountains markers on a Map using Maps SDK for Android.<br>
 The **main** functionality of this app are:
