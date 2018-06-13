@@ -34,7 +34,7 @@ The **B-L072Z-LRWAN1 - STM32L0 Board** read PH and Turbidity from the fountain a
 ## Code
 The code is composed by:
 
-+ [B-L072Z-LRWAN1 - STM32L0 Board](https://github.com/WaterMApp/STMCode)
++ [B-L072Z-LRWAN1 - STM32L0 Board / Sender - Receiver](https://github.com/WaterMApp/STMCode)
 + [Middleware](https://github.com/WaterMApp/Middleware)
 + [Backend](https://github.com/WaterMApp/backend)
 + [Android App](https://github.com/WaterMApp/AndroidApp)
