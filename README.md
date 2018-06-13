@@ -23,12 +23,12 @@ The idea is to create an Android App that collects data about the positions of t
 + **Python** used to get values from the receiver board
 + **Android App**
 
-## Main idea
+## Architecture
 ![alt text](https://preview.ibb.co/nR4zCo/schema_Water_Mapp.png)
 
 The **B-L072Z-LRWAN1 - STM32L0 Board** read PH and Turbidity from the fountain and send the read values through **Lora wireless data communication** to the other **B-L072Z-LRWAN1 - STM32L0 Board**. <br> The receiver board is connected to a **Server** that stores the values in a **SQLite Database**. The information are available to the app through **Node.js**.<br> The **Android phone** connects to the **Server** in order to get both the fountain positions and  water stats.
 
-## Architecture
+## Sensors connection schema
 
 ## Code
 The code is composed by:
