@@ -55,7 +55,7 @@ Mbed OS provides its own version control service, we will point to it for the tr
  
  ## Middleware 
 
-This component read data from the LoRa receiver and send it to the server. It consists in a **Python script** that read the data from the Com4 serial port. 
+This component read data from the LoRa receiver and store into the server. It consists in a **Python script** that read the data from the Com4 serial port and to upload this data on Sqlite database.
 
 ## Backend
 For the backend we used  both **Node.js** and **Sqlite**. Sqlite takes care about the informations storage of the fountain positions, the fountains stats and the comments. 
