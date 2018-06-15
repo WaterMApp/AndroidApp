@@ -68,7 +68,7 @@ Here the images of the prototype ealized by our team.
 
 <a href="url"><img src="https://i.imgur.com/XqsN31k.jpg" height="400" width="300" ></a>
 <a href="url"><img src="https://i.imgur.com/Ky8GmKL.jpg"  height="400" width="300" ></a>
-<a href="url"><img src="https://i.imgur.com/mBYjEzM.jpg"  height="400" width="600" ></a>
+<a href="url"><img src="https://i.imgur.com/mBYjEzM.jpg"  height="400" width="608" ></a>
 
 The water flows trough the blue box and flows out from a hole on the bottom of the box while the sensors detects both PH and turibidity.
 
