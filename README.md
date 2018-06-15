@@ -62,7 +62,7 @@ For the backend we used  both **Node.js** and **Sqlite**. Sqlite takes care abou
 Instead, Node.js provides this information to the App as Json Object.
 
 ## Prototype 
-Here the images of the prototype ealized by our team.
+Here the images of the prototype realized by our team.
 ### Sender
 
 
