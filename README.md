@@ -66,9 +66,9 @@ Here the images of the prototype realized by our team.
 ### Sender
 
 
-<a href="url"><img src="https://i.imgur.com/XqsN31k.jpg" height="400" width="300" ></a>
-<a href="url"><img src="https://i.imgur.com/Ky8GmKL.jpg"  height="400" width="300" ></a>
-<a href="url"><img src="https://i.imgur.com/mBYjEzM.jpg"  height="400" width="604" ></a>
+<a href="url"><img src="https://i.imgur.com/XqsN31k.jpg" height="500" width="400" ></a>
+<a href="url"><img src="https://i.imgur.com/Ky8GmKL.jpg"  height="500" width="400" ></a>
+<a href="url"><img src="https://i.imgur.com/mBYjEzM.jpg"  height="400" width="608" ></a>
 
 The water flows through the blue box and flows out from a hole on the bottom of the box while the sensors detects both PH and turibidity.
 
