@@ -66,13 +66,17 @@ Here the images of the prototype realized by our team.
 ### Sender
 
 
-<p align="center"><a href="url"><img src="https://i.imgur.com/XqsN31k.jpg" height="550" width="420" ></a>
-<a href="url"><img src="https://i.imgur.com/Ky8GmKL.jpg"  height="550" width="420" ></a></p>
-<p align="center"><a href="url"><img src="https://i.imgur.com/mBYjEzM.jpg"  height="450" width="700" ></a></p>
+<p align="center"><a href="https://i.imgur.com/XqsN31k.jpg"><img src="https://i.imgur.com/XqsN31k.jpg" height="550" width="420" ></a>
+<a href="https://i.imgur.com/Ky8GmKL.jpg"><img src="https://i.imgur.com/Ky8GmKL.jpg"  height="550" width="420" ></a></p>
+<p align="center"><a href="https://i.imgur.com/mBYjEzM.jpg"><img src="https://i.imgur.com/mBYjEzM.jpg"  height="450" width="700" ></a></p>
 
 The water flows through the blue box and flows out from a hole on the bottom of the box while the sensors detects both PH and turibidity.
 
 ### Receiver
+
+<p align="center"><a href="https://i.imgur.com/dD7RQha.jpg"><img src="https://i.imgur.com/dD7RQha.jpg"  height="450" width="700" ></a></p>
+
+The receiver is hooked up to a computer that forwards the information to the server
 
 ## Android App
 Android App that displays fountains markers on a Map using Maps SDK for Android.<br>
