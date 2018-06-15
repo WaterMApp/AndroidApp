@@ -66,8 +66,8 @@ Here the images of the prototype realized by our team.
 ### Sender
 
 
-<a href="url"><img src="https://i.imgur.com/XqsN31k.jpg" height="550" width="420" ></a>
-<a href="url"><img src="https://i.imgur.com/Ky8GmKL.jpg"  height="550" width="420" ></a>
+<p align="center"><a href="url"><img src="https://i.imgur.com/XqsN31k.jpg" height="550" width="420" ></a>
+<a href="url"><img src="https://i.imgur.com/Ky8GmKL.jpg"  height="550" width="420" ></a></p>
 <p align="center"><a href="url"><img src="https://i.imgur.com/mBYjEzM.jpg"  height="450" width="700" ></a></p>
 
 The water flows through the blue box and flows out from a hole on the bottom of the box while the sensors detects both PH and turibidity.
@@ -110,5 +110,5 @@ In the case you find a new fountain, you can report it and add on the map just t
 
 
 ##
-![Logo](https://preview.ibb.co/ebyZCo/logo_rosso_sapienza.png)
+<p align=center><a href="url"><img src="https://preview.ibb.co/ebyZCo/logo_rosso_sapienza.png" ></p>
 
