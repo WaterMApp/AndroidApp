@@ -66,8 +66,8 @@ Here the images of the prototype ealized by our team.
 ### Sender
 
 
-<a href="url"><img src="https://i.imgur.com/XqsN31k.jpg" height="307.12" width="401.13" ></a>
-<a href="url"><img src="https://i.imgur.com/Ky8GmKL.jpg"  height="308.87" width="431.12" ></a>
+<a href="url"><img src="https://i.imgur.com/XqsN31k.jpg" height="400" width="300" ></a>
+<a href="url"><img src="https://i.imgur.com/Ky8GmKL.jpg"  height="400" width="300" ></a>
 
 ### Receiver
 
