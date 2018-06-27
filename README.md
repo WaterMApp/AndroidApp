@@ -94,6 +94,7 @@ In the case you find a new fountain, you can report it and add on the map just t
 ![alt text](https://image.ibb.co/etR2qJ/Screen1.png)
 
 # Test 
+We test our prototype in real scenarios. We did 10 tests in 10 different fountains in Rome city centre.
 <a href="https://image.ibb.co/ergFN8/IMG_0607.jpg"><img src="https://image.ibb.co/ergFN8/IMG_0607.jpg" height="400" width="400" ></a>
 <a href="https://preview.ibb.co/istjFT/rweqfgr.png"><img src="https://preview.ibb.co/istjFT/rweqfgr.png"  height="400" width="400" ></a>
 
