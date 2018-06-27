@@ -100,7 +100,7 @@ We test our prototype in real scenarios. We did 10 tests in 10 different fountai
 
 ## Data
 <a href="https://ibb.co/fDQbC8"><img src="https://preview.ibb.co/hdHCkT/ps1.png" alt="ps1" border="0"></a>
-<a href="https://ibb.co/cFA9X8"><img src="https://preview.ibb.co/kqQyQT/ps2.png" alt="ps2" border="0"></a>
+<a href="https://ibb.co/nFpskT"><img src="https://preview.ibb.co/g4SdQT/ps2.png" alt="ps2" border="0"></a>
 
 # Useful links
 ## Initial Concept & User Evaluation Presentation
