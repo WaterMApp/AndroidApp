@@ -101,12 +101,30 @@ We test our prototype in real scenarios. We did 10 tests in 10 different fountai
 <a href="https://ibb.co/fDQbC8"><img src="https://preview.ibb.co/hdHCkT/ps1.png" alt="ps1" border="0"></a>
 <a href="https://ibb.co/fWjQ5T"><img src="https://preview.ibb.co/hB3wC8/ps2.png" alt="ps2" border="0"></a>
 
-+ [Click here to download the .csv file](https://drive.google.com/open?id=1-MSi4dk1RVr5r-kFEqsUDO6x2j9zSSpY)
++ [Click here to download the .csv file](https://drive.google.com/open?id=1-MSi4dk1RVr5r-kFEqsUDO6x2j9zSSpY)	+ [Click here to download the .csv file](https://drive.google.com/open?id=1-MSi4dk1RVr5r-kFEqsUDO6x2j9zSSpY)
 
 
-# Contacts
+ # Useful links	
+## Initial Concept & User Evaluation Presentation	
+[You can check the SlideShare presentation here](https://www.slideshare.net/GiuseppeAndreetti/watermapp-idea)	
+
+
+ ## Midterm Presentation	# Contacts
+[You can check the SlideShare presentation here](https://www.slideshare.net/GiuseppeAndreetti/watermapp-midterm)	
+
+ ## Final Presentation	
+[You can check the SlideShare presentation here](https://www.slideshare.net/mobile/GiuseppeAndreetti/watermapp-100552441)	
+
+ ## Final Presentation Demo	
+[You can check the Demo here](https://youtu.be/W4Bmlybk8DI)	
+
+ # Project Members - Contacts	
 + Linkedin: [Giuseppe Andreetti](https://www.linkedin.com/in/giuseppe-andreetti/)  
++ Linkedin: [Adriano Pimpini](https://www.linkedin.com/in/adriano-pimpini/)  	
++ Linkedin: [Lucia Rodinò](https://www.linkedin.com/in/lucia-rodinò-b5019815b/) 	
++ WebSite:  [Gabrio Tognozzi](https://gabrio.ovh/) 	
 
-##
+
+
+ ##	##
 <p align=center><a href="url"><img src="https://preview.ibb.co/ebyZCo/logo_rosso_sapienza.png" ></p>
-
